@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 84px;
+    font-size: 14px;
+
+    span {
+        color: #337ab7;
+        margin-right: 8px;
+    }
+    p {
+        margin-right: 8px;
+    }
+}
+
+.menu-items {
+    margin-top: 6px;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    text-transform: uppercase;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+
+    span {
+        font-size: 0.875rem;
+        padding: 4px 8px;
+        line-height: 1.75;
+        min-width: 64px;
+    }
+}

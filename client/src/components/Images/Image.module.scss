@@ -1,0 +1,51 @@
+.container {
+    position: relative;
+
+    &:hover {
+        .img {
+            display: none;
+        }
+
+        .img-1 {
+            display: inline;
+            transform: rotateY(180deg);
+            animation: flip 2s ease-in-out;
+            transition: transform 1s;
+        }
+    }
+}
+
+.img {
+    width: 218px;
+    height: 322px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.img-1 {
+    display: none;
+    width: 218px;
+    height: 322px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.s {
+    width: 80px;
+    height: 100px;
+}
+
+.layout {
+    display: none;
+    background-color: #CCC;
+}
+
+@keyframes flip {
+    30%{
+      transform: rotateY(0);
+    }
+  }

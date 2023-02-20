@@ -1,0 +1,43 @@
+:root {
+    --img-height: 60vh
+}
+
+.wrapper {
+    margin-top: 70px;
+}
+
+.img-banner {
+    position: relative;
+    width: 100%;
+    height: var(--img-height);
+}
+
+.arrow-left {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    margin-top: calc(var(--img-height)/2);
+    margin-left: 16px;
+    background: transparent;
+    padding: 4px;
+    :hover {
+        cursor: pointer;
+    }
+}
+
+.arrow-right {
+    position: absolute;
+    z-index: 2;
+    margin-top: calc(var(--img-height)/2);
+    margin-right: 12px;
+    background: transparent;
+    padding: 4px;
+    right: 193px;
+    :hover {
+        cursor: pointer;
+    }
+}
+
+div, img {
+    cursor: default;
+}

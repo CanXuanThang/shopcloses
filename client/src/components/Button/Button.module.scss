@@ -1,0 +1,26 @@
+.btn {
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 1px dashed #fff;
+    background: #834453;
+    padding: 10px 8px;
+    width: 100px;
+    text-align: center;
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.8;
+    }
+}
+
+.s {
+    width: 174px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.h {
+    padding: 6px 8px;
+}

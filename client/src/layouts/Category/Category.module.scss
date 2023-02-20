@@ -1,0 +1,21 @@
+.app {
+    border: 1px dashed #ddd;
+    margin-top: 8px;
+
+    p {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 700;
+        color: #ababab;
+        padding: 12px;
+        margin-left: 8px;
+    }
+
+    p:hover {
+        cursor: pointer;
+    }
+}
+
+.title {
+    margin-left: 10px;
+}
